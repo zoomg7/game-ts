@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+nav a {
+    padding: 16px;
+    width: 100%;
+    background: cornflowerblue;
+    border-left: 3px #fff solid;
+    color: #fff
+}
+
+section {
+    margin-top: 24px;
+}
+
+section button {
+    border: 1px #ccc solid;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+section button.active {
+    background: cornflowerblue;
+    border: 1px cornflowerblue solid;
+    color: #fff;
+}
